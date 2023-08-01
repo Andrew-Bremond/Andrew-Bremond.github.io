@@ -3,57 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <title>Andrew Bremond Personal Page</title>
-        <style>
-            h1{
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 215%;
-            }
-            h2{
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 160%;
-            }
-            h3{
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 130%;
-            }
-            p{
-                font-family:'Times New Roman', Times, serif;
-                font-size: 115%;
-            }
-            table{
-                margin-left: 30px;
-                margin-right: 30px;
-                border-spacing: 10px;
-            }
-            th, td {
-                text-align: center;
-                width: 500px;
-                line-height: 30px;
-            }
-            thead{
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 110%;
-            }
-            tbody{
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 110%;
-            }
-            li{
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 110%;
-            }
-            #right{
-                text-align: right;
-            }
-            img{
-                float: right;
-                margin-top: 10px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="styles/style.css"
     </head>
+
     <body>
-        <img src="ProfileCropped.jpg" alt="profile_pic" 
-        width="200" height="220">
+        <img src="./images/ProfileCropped.jpg" alt="profile_pic" 
+        width="220" height="245" style="margin-right: 120px;">
     
         <h1>Andrew Bremond</h1>
 
@@ -62,12 +17,23 @@
             University of California, Riverside
         </h2>
         <h3>Socials:</h3>
-        <p>
-            <a href="https://github.com/Andrew-Bremond/Andrew-Bremond.github.io.git"> Github</a> |
-            <a href="https://www.linkedin.com/in/andrew-bremond-469731223/"> LinkedIn</a> |
-            <a href="https://www.instagram.com/andrew.bremond/"> Instagram </a>
-            
-        </p>
+            <p>
+                <!--simple links-->
+                <a href="https://github.com/Andrew-Bremond" target="_blank"> Github</a> |
+                <a href="https://www.linkedin.com/in/andrew-bremond-469731223/" target="_blank"> LinkedIn</a> |
+                <a href="https://www.instagram.com/andrew.bremond/" target="_blank"> Instagram </a>
+                <!--images-->
+                <a href="https://www.instagram.com/andrew.bremond/" target="_blank">
+                    <img id="instagram" src="./images/instagram.png" alt="insta img" width="40px" height="40px"
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-bremond-469731223/" target="_blank">
+                    <img id="linkedin" src="./images/linkedin.png" alt="linkedin img" width=40px height=40px>
+                </a> 
+                <a href="https://github.com/Andrew-Bremond" target="_blank">
+                    <img id="github" src="./images/github-logo.png" alt="github img" width=40px height=40px>
+                </a>
+            </p>
+
         <h3>About</h3>
         <p>I am a 3rd year undergraduate student at UCR studying Computer Science.
             <br>
@@ -75,6 +41,7 @@
             <br>
             I am always excited to learn new things and make more connections.
         </p>
+        <hr>
 
         <h3>Work Experience</h3>
         <table>
@@ -113,7 +80,7 @@
                 </tr>
             </body>    
         </table>
-    
+        <hr>
 
         <h3>Education</h3>
         <table>
@@ -130,6 +97,7 @@
                 </tr>
             </tbody>
         </table>
+        <hr>
 
         <h3>Coursework</h3>
             <ul>
@@ -139,12 +107,16 @@
                 <li>Machine Organization</li>
                 <li>Assembly Language Programming</li>
             </ul>
+        <hr>    
+
         <h3>Skills</h3>
             <ul>
                 <li>C++</li>
                 <li>Python</li>
                 <li>HTML</li>
             </ul>
+        <hr>    
+
         <h3>Projects</h3>
             <ul>
                 <li>Music Playlist Creator (C++): Implemented a playlist creator that 
