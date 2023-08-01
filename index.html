@@ -3,11 +3,58 @@
     <head>
         <meta charset="utf-8" />
         <title>Andrew Bremond Personal Page</title>
+        <style>
+            h1{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 215%;
+            }
+            h2{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 160%;
+            }
+            h3{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 130%;
+            }
+            p{
+                font-family:'Times New Roman', Times, serif;
+                font-size: 115%;
+            }
+            table{
+                margin-left: 30px;
+                margin-right: 30px;
+                border-spacing: 10px;
+            }
+            th, td {
+                text-align: center;
+                width: 500px;
+                line-height: 30px;
+            }
+            thead{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 110%;
+            }
+            tbody{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 110%;
+            }
+            li{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 110%;
+            }
+            #right{
+                text-align: right;
+            }
+            img{
+                float: right;
+                margin-top: 10px;
+            }
+        </style>
     </head>
     <body>
         <img src="ProfileCropped.jpg" alt="profile_pic" 
-        width="180" height="200">
-
+        width="200" height="220">
+    
         <h1>Andrew Bremond</h1>
 
         <h2>Computer Science
@@ -15,17 +62,12 @@
             University of California, Riverside
         </h2>
         <h3>Socials:</h3>
-        <p1>
-            Github:
-            <a href="https://github.com/Andrew-Bremond/Andrew-Bremond.github.io.git"> Andrew-Bremond</a>
-            <br>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/andrew-bremond-469731223/"> Andrew Bremond</a>
-            <br>
-            Instagram:
-            <a href="https://www.instagram.com/andrew.bremond/"> andrew.bremond </a>
+        <p>
+            <a href="https://github.com/Andrew-Bremond/Andrew-Bremond.github.io.git"> Github</a> |
+            <a href="https://www.linkedin.com/in/andrew-bremond-469731223/"> LinkedIn</a> |
+            <a href="https://www.instagram.com/andrew.bremond/"> Instagram </a>
             
-        </p1>
+        </p>
         <h3>About</h3>
         <p>I am a 3rd year undergraduate student at UCR studying Computer Science.
             <br>
@@ -37,51 +79,54 @@
         <h3>Work Experience</h3>
         <table>
             <thead>
-                <tr> <!-- row 1 -->
-                    <th>Company name </th>
-                    <!-- row 1, col 1-->
-                    <th>Title</th>
-                    <!-- row 1, col 2-->
-                    <th>Dates of Employment</th>
-                    <!-- row 1, col 3-->
-                </tr> 
-            </thead>
-            <tbody>
-                <tr> <!-- row 2-->
+                <tr> <!--row 1-->
                     <th>Inria Sophia-Antipolis</th>
-                    <th>Research Assistant</th>
+                    <th>Research Assistant Intern</th>
                     <th>7/10/2022 - 9/13/2022</th>
+                <tr>  
+            </thead>
+            <body>          
+                <tr> <!--row2-->
+                    <td colspan = "3">
+                        During my internship, I was helping Ph.D studest with their research by
+                        reviewing and editing important information to train a model to
+                        detect the different levels of autism a child may have. I did all sorts
+                        of tasks, ranging from simple video editing to learning and debugging
+                        code.
+                    </td>
                 </tr>
-                <tr> <!-- row 3 -->
+            </body>    
+            <thead>    
+                <tr> <!--row3-->
                     <th>Glasgow UCR Dining</th>
                     <th>Dishwasher</th>
                     <th>9/23/2022 - 10/25/2022</th>
                 </tr>
-            </tbody>
+            </thead>   
+            <body> 
+                <tr> <!--row4-->
+                    <td colspan = "3">
+                        While I was mainly working as a dishwasher, I also had to 
+                        restock the market and buss tables. I had to work long 
+                        hours and maintain good study work ethic.
+                    </td>
+                </tr>
+            </body>    
         </table>
+    
 
         <h3>Education</h3>
         <table>
-            <thead>
-                <tr> <!-- row 1 -->
-                    <th>Name of School/University</th>
-                    <!-- row 1, col 1-->
-                    <th>Level of Education</th>
-                    <!-- row 1, col 2-->
-                    <th>Dates of Attendend</th>
-                    <!-- row 1, col 3-->
-                </tr> 
-            </thead>
             <tbody>
-                <tr> <!-- row 2-->
-                    <th>University of California, Riverside</th>
-                    <th>Bachelor of Science, Compuer Science</th>
-                    <th>2021 - 2025</th>
+                <tr> <!-- row 1-->
+                    <td>University of California, Riverside</th>
+                    <td>Bachelor of Science, Compuer Science</th>
+                    <td>2021 - 2025</th>
                 </tr>
-                <tr> <!-- row 3 -->
-                    <th>Rancho Bernardo High School</th>
-                    <th>High School Diploma</th>
-                <th>2017 - 2021</th>
+                <tr> <!-- row 2 -->
+                    <td>Rancho Bernardo High School</th>
+                    <td>High School Diploma</th>
+                    <td>2017 - 2021</th>
                 </tr>
             </tbody>
         </table>
