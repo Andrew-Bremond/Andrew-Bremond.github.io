@@ -1,78 +1,248 @@
 
 h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 215%;
-    margin-left: 120px;
-    color:bisque
+    margin-left: 250px;
+    margin-right: 250px;
+    color:antiquewhite;
+    background-color: cadetblue;
+    border-radius: 10px;
 }
 h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 160%;
-    margin-left: 190px;
-    margin-right: 190px;
-    color:bisque
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 190%;
+    margin-left: 250px;
+    margin-right: 250px;
+    color:antiquewhite;
+    background-color: cadetblue;
+    border-radius: 10px;
 }
 h3{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 130%;
-    margin-left: 190px;
-    margin-right: 190px;
-    color:bisque
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    margin-left: 250px;
+    margin-right: 250px;
+    color:antiquewhite;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 5px;
 }
-p{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 115%;
-    margin-left: 190px;
-    margin-right: 190px;
-    color:darksalmon
+p, pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    margin-left: 270px;
+    margin-right: 270px;
+    color: antiquewhite;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 5px;
 }
 table{
     border-spacing: 10px;
-    margin-left: 220px;
-    margin-right: 220px;
-    color:darksalmon
+    margin-left: 270px;
+    margin-right: 270px;
+    color:antiquewhite;
+    background-color: cadetblue;
+    border-radius: 10px;
 }
 th, td {
     text-align: center;
     width: 500px;
     line-height: 20px;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
 }
 thead{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 110%;
-    margin-left: 190px;
-    margin-right: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: cadetblue;
+    border-radius: 10px;
 }
 tbody{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 110%;
-    margin-left: 190px;
-    margin-right: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: cadetblue;
+    border-radius: 10px;
 }
 li{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 110%;
-    margin-left: 190px;
-    margin-right: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 220px;
+    margin-right: 220px; */
+    background-color: cadetblue;
+    padding: 5px;
+    font-size: 90%;
 }
 ul{
     margin-bottom: 50px;
-    color:darksalmon
+    margin-left: 270px;
+    margin-right: 270px;
+    color:antiquewhite;
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-size: 120%;
 }
+.innerPoint{
+    margin: 0;
+}
+
 #right{
     text-align: right;
 }
-img{
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
+
+.rowimg{
+    list-style: none;
+    margin: 0;
+    background-color: cadetblue;
+    top: 0;
+    padding: 10px;
 }
+
+.colimg{
+    padding: 5px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    /* background-color: cadetblue; */
+}
+
+.rubbishraddarpics {
+    border-radius: 10px;    
+    max-height: 200px;
+    margin: 0;
+    /* background-color: cadetblue; */
+}
+
+/* #leftimg {
+    border-top: 30px solid cadetblue;
+    border-left: 30px solid cadetblue;
+    border-bottom: 30px solid cadetblue;
+}
+
+#rightimg {
+    border-top: 30px solid cadetblue;
+    border-right: 30px solid cadetblue;
+    border-bottom: 30px solid cadetblue;
+} */
+
+.profilePicture {
+    float: right;
+    height: auto;
+    width: 20%;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 8px solid antiquewhite;
+    z-index: 99;
+}
+
 hr{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 230px;
+    margin-right: 230px;
 }
 body{
-    background-color: cadetblue;
+    background-color: antiquewhite;
 }
+
+.socials {
+    float: left;
+    left: 270px;
+    position: absolute;
+    margin-right: 5px;
+}
+
+.links{
+    color: blanchedalmond;
+    font-size: 120%;
+}
+
+.links a:after{
+    color: bisque;
+}
+
+.links a:hover{
+    color: antiquewhite;
+}
+
+.toc-block {
+    background-color: antiquewhite;
+    box-shadow: 0 5px 15px rgb(0 0 0 / .24);
+    max-width: 200px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: absolute;
+    margin-top: 130px;
+    left: 30px;
+}
+
+.toc-header-block {
+    background: cadetblue;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    min-height: 30px;
+    align-items: center;
+}
+
+.toc-header {
+    font-size:20px;
+    color: antiquewhite;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.toc-list-block {
+    background: antiquewhite;
+    border-radius: 15px;
+}
+
+.toc-list {
+    border-radius: 0 100px 50px 50px;
+    margin: 0;
+    list-style: none;
+    padding: 15px 25px;
+}
+
+.toc-list-item:not(:last-child){
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.toc-list-item a{
+    position: relative;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: 200;
+    display: block;
+    padding: 5px 5px 5px 35px;
+    cursor: pointer;
+}
+
+.toc-list-item a:before {
+    content:'';
+    width: 10px;
+    height: 10px;
+    background-color: dodgerblue;
+    position: absolute;
+    border-radius: 50%;
+    left: 10px;
+    top: 0;
+    bottom:0;
+    margin: auto;
+}
+
+.toc-list-item a:hover{
+    box-shadow: 0 8px 15px dodgerblue;
+    background: rgb(90, 172, 253);
+    color: antiquewhite;
+}
+
+.toc-list-item a:hover:before{
+    background: antiquewhite;
+}
+

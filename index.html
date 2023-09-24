@@ -8,51 +8,88 @@
         <meta property="og:type" content="Website"/>
         <meta property="og:title" content="Andrew Bremond"/>
         <meta property="og:description" content="Basically a Resume of Andrew Bremond"/>
-        <meta property="og:image" content="https://andrew-bremond.github.io/images/ProfileCropped.jpg"/>
-        <meta name="twitter:card" content="summary"/>
+        <meta property="og:image" content="https://andrew-bremond.github.io/images/andrew.jpg"/>
+        <!-- <meta name="twitter:card" content="summary"/>
         <meta name="twitter:creator" content="@andrewbremond"/>
-        <meta name="twitter:site" content="@andrewbremond"/>
+        <meta name="twitter:site" content="@andrewbremond"/> -->
         <meta property="fb:app_id" content="andrew.bremond"/>
     </head>
 
     <body>
-        <img src="./images/ProfileCropped.jpg" alt="profile_pic" 
-        width="220" height="245" style="margin-right: 120px;">
+
+        <div class="toc-block">
+            <div class="toc-header-block">
+                <h5 class="toc-header"> Table of Contents</h5>
+            </div>
+
+            <div class="toc-list-block">
+                <ul1 class="toc-list">
+                    <li1 class="toc-list-item">
+                        <a href="#about">About</a> <br>
+                    </li1>
+                    <li1 class="toc-list-item">
+                        <a href="#work_experience">Work Experience</a><br>
+                    </li1>
+                    <li1 class="toc-list-item">
+                        <a href="#projects">Projects</a><br>
+                    </li1>
+                    <li1 class="toc-list-item">
+                        <a href="#education">Education</a><br>
+                    </li1>
+                    <li1 class="toc-list-item">
+                        <a href="#coursework">Coursework</a><br>
+                    </li1>
+                    <li1 class="toc-list-item">
+                        <a href="#skills">Skills</a><br>
+                    </li1>
+                </ul1>
+            </div>
+        </div>
+
+        <img class="profilePicture" src="./images/andrew.jpg" alt="profile_pic">
     
-        <h1>Andrew Bremond</h1>
+        <h1>&nbsp Andrew Bremond
+            <h2>&nbsp University of California, Riverside
+                <br>
+                &nbsp Computer Science
+            </h2>
+        </h1>
+        <h3>&nbsp Socials:</h3>
+            <!--simple links-->
+            <!-- <a href="https://github.com/Andrew-Bremond" target="_blank"> Github</a> |
+            <a href="https://www.linkedin.com/in/andrew-bremond-469731223/" target="_blank"> LinkedIn</a> |
+            <a href="https://www.instagram.com/andrew.bremond/" target="_blank"> Instagram </a> -->
+            <!--images-->
+            <a href="https://www.instagram.com/andrew.bremond/" target="_blank">
+                <img class="socials" src="./images/instagram.png" alt="insta img" width="40px" height="40px">
+            </a>
+            <a href="https://www.linkedin.com/in/andrew-bremond-469731223/" target="_blank">
+                <img  class="socials" src="./images/linkedin.png" alt="linkedin img" width=40px height=40px>
+            </a> 
+            <a href="https://github.com/Andrew-Bremond" target="_blank">
+                <img class="socials" src="./images/github-logo.png" alt="github img" width=40px height=40px>
+            </a>
+        
+        <br><br><br>
 
-        <h2>University of California, Riverside
+        <h3 id="about">&nbsp&nbsp About</h3>
+        <!-- <p> <br>
+            &nbsp&nbsp&nbsp I am a 3rd year undergraduate student at UCR studying Computer Science.
             <br>
-            Computer Science
-        </h2>
-        <h3>Socials:</h3>
-            <p>
-                <!--simple links-->
-                <a href="https://github.com/Andrew-Bremond" target="_blank"> Github</a> |
-                <a href="https://www.linkedin.com/in/andrew-bremond-469731223/" target="_blank"> LinkedIn</a> |
-                <a href="https://www.instagram.com/andrew.bremond/" target="_blank"> Instagram </a>
-                <!--images-->
-                <a href="https://www.instagram.com/andrew.bremond/" target="_blank">
-                    <img id="instagram" src="./images/instagram.png" alt="insta img" width="40px" height="40px">
-                </a>
-                <a href="https://www.linkedin.com/in/andrew-bremond-469731223/" target="_blank">
-                    <img id="linkedin" src="./images/linkedin.png" alt="linkedin img" width=40px height=40px>
-                </a> 
-                <a href="https://github.com/Andrew-Bremond" target="_blank">
-                    <img id="github" src="./images/github-logo.png" alt="github img" width=40px height=40px>
-                </a>
-            </p>
-
-        <h3>About</h3>
-        <p>I am a 3rd year undergraduate student at UCR studying Computer Science.
+            &nbsp&nbsp&nbsp Over the past years, I'ved learned C++, Python, and now HTML.
             <br>
+            &nbsp&nbsp&nbsp I am always excited to learn new things and make more connections. 
+            <br>
+        </p> -->
+        <pre>
+            
+            I am a 3rd year undergraduate student at UCR studying Computer Science.
             Over the past years, I'ved learned C++, Python, and now HTML.
-            <br>
-            I am always excited to learn new things and make more connections.
-        </p>
+            I am always excited to learn new things and make more connections. 
+        </pre>
         <hr>
 
-        <h3>Work Experience</h3>
+        <h3 id="work_experience">&nbsp&nbsp Work Experience</h3>
         <table>
             <thead>
                 <tr> <!--row 1-->
@@ -91,7 +128,74 @@
         </table>
         <hr>
 
-        <h3>Education</h3>
+        <h3 id="projects">&nbsp&nbsp Projects</h3>
+        <div>
+            <ul style="margin-bottom: 0; border-radius: 10px 10px 0px 0px;">
+                <br>
+                <li>
+                    <a class="links" href="https://github.com/Rubbish-Radar/RubbishRadar" target="_blank"> Rubbish Radar</a> 
+                    <ul class="innerPoint">                       
+                        <li>Collaborated with a team of 5 developers on GitHub to design and develop a web application focused on mapping trash bin locations</li>
+                        <li>Led front-end development efforts, designing user interfaces and implementing routing for seamless navigation.</li>
+                        <li>Implemented CSS and HTML for an intuitive and visually appealing user experience.</li>
+                        <li>Integrated Google Maps and Vue Geolocator to enable users to add and locate trash bins on the map.</li>
+                        <li>Contributed to back-end development, implementing Firebase OAuth for user registration and login functionality.</li>
+                        <li>Utilized Firestore for data storage and retrieval, ensuring efficient management of trash bin data.</li>  
+                        <p style="margin:0; font-size: 90%; font-style: italic;">
+                        Rubbish Radar is a user-friendly platform featuring a dynamic map that helps users easily locate 
+                        nearby waste disposal options, including Trash cans, Recycling bins, and combustible bins, each clearly distinguished.
+                        Users can add waste disposal locations based on their current position or by providing latitude and longitude coordinates from the map. 
+                        Registered users can rate and review bins, enhancing the waste disposal experience for the community.
+                        </p> 
+                    </ul> 
+                </li>
+                <p style="margin:0; font-size: 90%;">
+                    Click 
+                    <a class="links" href="https://rubbishradar-695ae.web.app/" target="_blank" style="font-size: 100%;">here</a>
+                    to access the website. <br>
+                    Disclaimer: Firebase API will expire so markers wont function.
+                </p>
+            </ul>
+            <ul class="rowimg">
+                <li class="colimg">
+                    <img class="rubbishraddarpics" id="leftimg" src="./images/rubbishradarhome.png" alt="rubbishradarhome">
+                </li>
+                <li class="colimg">
+                    <img class="rubbishraddarpics" src="./images/rubbishradarmap.png" alt="rubbishradarmap">
+                </li>
+                <li class="colimg">
+                    <img class="rubbishraddarpics" src="./images/rubbishradarlogin.png" alt="rubbishradarlogin">
+                </li>
+                <li class="colimg">
+                    <img class="rubbishraddarpics" id="rightimg" src="./images/rubbishradaraddtrash.png" alt="rubbishradaraddtrash">
+                </li>
+            </ul>
+
+            <ul style="margin-top: 0; border-radius: 0 0 10px 10px;">
+                <br>
+                <li>
+                    <a class="links" href="https://github.com/cs100/final-project-aamin026-kmuso001-abrem005-dcoel003" target="_blank"> Jurassic Park RPG Game (C++)</a>
+                    <ul class="innerPoint">
+                        <li>Collaborated with a team to design and implement the game's mechanics and storyline.</li>
+                        <li>Implemented a character selection system, offering players unique plotlines and outcomes based on their chosen character.</li>
+                        <li>Designed and programmed interactive story elements, allowing players to make choices that influenced the game's narrative direction.</li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="links"> Music Playlist Creator (C++)</a>
+                    <ul class="innerPoint">
+                        <li>Implemented a playlist creator that adds songs via queue-based data structure.</li>
+                        <li>Prompts user for basic song information to be stored as a node via linked list.</li>
+                        <li>Various playlist functions are implemented to add, delete, and switch songs.</li>
+                        <li>Ouput function to provide playlist statistics including total runtime, songs from specific artists, etc.</li>
+                    </ul>
+                </li>
+                <br>
+            </ul>
+        </div>
+        <hr>
+
+        <h3 id="education">&nbsp&nbsp Education</h3>
         <table>
             <tbody>
                 <tr> <!-- row 1-->
@@ -108,39 +212,62 @@
         </table>
         <hr>
 
-        <h3>Coursework</h3>
+        <h3 id="coursework">&nbsp&nbsp Coursework</h3>
             <ul>
+                <br>
                 <li>Data Structures and Algorithms</li>
                 <li>Discrete Structures</li>
                 <li>Software Construction</li>
                 <li>Machine Organization</li>
                 <li>Assembly Language Programming</li>
+                <br>
             </ul>
         <hr>    
 
-        <h3>Skills</h3>
+        <h3 id="skills">&nbsp&nbsp Skills</h3>
             <ul>
+                <br>
                 <li>C++</li>
                 <li>Python</li>
                 <li>HTML</li>
-            </ul>
-        <hr>    
-
-        <h3>Projects</h3>
-            <ul>
-                <li>
-                    <a href="https://github.com/cs100/final-project-aamin026-kmuso001-abrem005-dcoel003" target="_blank"> Music Playlist Creator (C++)</a>
-                    : Implemented a playlist creator that 
-                    adds songs via queue-based data structure. Prompts user for basic song information 
-                    to be stored as a node via linked list. Various playlist functions
-                    are implemented to add, delete, and switch songs. Ouput function
-                    to provide playlist statistics including total runtime, songs from 
-                    specific artists, etc.
-                </li>
-                <li>
-                    Jurassic Park RPG Game (C++): Terminal based game from the movie Jurassic Park.
-                    Used C++ to create various character classes for users to choose who to play as.
-                </li>
+                <br>
             </ul>
     </body>
 </html>
+
+<script>
+    // methods: {
+    //     scrollToAbout(){
+    //         const element = this.$refs.about;
+    //         const top = element.offsetTop;
+    //         window.scrollTo({
+    //             top: top,
+    //             behavior: 'smooth'
+    //         });
+    //     },
+    // }
+    // $(document).ready(function(){
+    //   // Add smooth scrolling to all links
+    //   $("a").on('click', function(event) {
+    
+    //     // Make sure this.hash has a value before overriding default behavior
+    //     if (this.hash !== "") {
+    //       // Prevent default anchor click behavior
+    //       event.preventDefault();
+    
+    //       // Store hash
+    //       var hash = this.hash;
+    
+    //       // Using jQuery's animate() method to add smooth page scroll
+    //       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    //       $('html, body').animate({
+    //         scrollTop: $(hash).offset().top
+    //       }, 800, function(){
+    
+    //         // Add hash (#) to URL when done scrolling (default click behavior)
+    //         window.location.hash = hash;
+    //       });
+    //     } // End if
+    //   });
+    // });
+    </script>
