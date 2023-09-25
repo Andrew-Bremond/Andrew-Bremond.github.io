@@ -118,18 +118,6 @@ ul{
     /* background-color: cadetblue; */
 }
 
-/* #leftimg {
-    border-top: 30px solid cadetblue;
-    border-left: 30px solid cadetblue;
-    border-bottom: 30px solid cadetblue;
-}
-
-#rightimg {
-    border-top: 30px solid cadetblue;
-    border-right: 30px solid cadetblue;
-    border-bottom: 30px solid cadetblue;
-} */
-
 .profilePicture {
     float: right;
     height: auto;
@@ -152,7 +140,7 @@ body{
 .socials {
     float: left;
     left: 270px;
-    position: absolute;
+    position: relative;
     margin-right: 5px;
 }
 
